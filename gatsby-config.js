@@ -13,13 +13,14 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    'gatsby-plugin-sass',
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `matrixblend-starter-default`,
-        short_name: `starter`,
+        short_name: `Tester`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
